@@ -1,0 +1,92 @@
+        body {
+            background: hsl(185, 75%, 39%);
+            font-family: 'Kumbh Sans', sans-serif;
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            justify-content: center;
+        }
+        
+        .pattern-top {
+            position: absolute;
+            bottom: 35%;
+            right: 53%;
+        }
+        
+        .pattern-bottom {
+            position: absolute;
+            left: 50%;
+            top: 48%;
+            z-index: -1;
+        }
+        
+        .card {
+            display: grid;
+            grid-template-columns: 350px;
+            grid-template-rows: auto;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 20px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            /* text-align: center; */
+            transform: translate(-50%, -50%);
+        }
+        
+        .profile-img {
+            margin-top: -15%;
+            border: 5px solid white;
+            border-radius: 50%;
+            /* position: relative; */
+        }
+        
+        .profile-info .name {
+            font-weight: bold;
+        }
+        
+        .profile-info .age {
+            font-weight: lighter;
+            color: hsl(240, 3%, 76%);
+        }
+        
+        .profile-info .location {
+            font-weight: lighter;
+            color: hsl(240, 3%, 76%);
+        }
+        
+        .profile-stats {
+            display: grid;
+            grid-template-columns: 110px 120px 120px;
+            grid-template-rows: 100px;
+            border-top: 1px solid #f2f1f1;
+            line-height: 0.5;
+            font-size: 18px;
+        }
+        
+        .stat1 h4 {
+            font-size: 15px;
+        }
+        
+        .stat1 p {
+            font-size: 10px;
+            color: hsl(240, 3%, 76%);
+        }
+        
+        .stat2 h4 {
+            font-size: 15px;
+        }
+        
+        .stat2 p {
+            font-size: 10px;
+            color: hsl(240, 3%, 76%);
+        }
+        
+        .stat3 h4 {
+            font-size: 15px;
+        }
+        
+        .stat3 p {
+            font-size: 10px;
+            color: hsl(240, 3%, 76%);
+        }
